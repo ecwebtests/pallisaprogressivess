@@ -1,0 +1,84 @@
+
+/* Desktops */
+@media (min-width: 901px) {
+  
+  .navbar__links { display: flex; gap: 2.5rem; height: 100%; }
+  .navbar__item { height: 100%; display: flex; align-items: center; }
+  .navbar__link { padding: 0.5rem 0; transition: color 0.3s ease; }
+  .mobile-menu, .navbar__toggle, .menu-overlay { display: none !important; }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .menu-overlay { display: block; }
+  .navbar__links { display: none; }
+  .navbar__actions { display: flex; }
+  .navbar__toggle { display: flex; }
+}
+
+
+/* Small phones */
+@media (max-width: 475px) {
+  .navbar{
+    width: 100%;
+  }
+}
+/* TABLET */
+@media (max-width: 992px) {
+
+  .slider {
+    height: 85vh;
+  }
+
+  .caption {
+    left: 5%;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .hero-badge{
+    top: 12%;
+  }
+  .hero-floating-buttons {
+  bottom: 4%;
+  }
+  .hero-features{
+    bottom: 28%;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .slider {
+    height: 100vh;
+  }
+
+  .caption {
+    bottom: 60%;
+    left: 50%;
+    width: 100%;
+    padding: 1rem;
+  
+  }
+  .hero-badge{
+    top: 7%;
+  }
+  .hero-floating-buttons {
+  bottom: 35%;
+  }
+  .hero-features{
+    bottom: -5px;
+   flex-direction: column;
+    }
+  .caption.active {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+  }
+  .caption p {
+    font-size: 0.9rem;
+  }
+
+}
