@@ -49,6 +49,7 @@
 
 /* MOBILE */
 @media (max-width: 600px) {
+  
   .slider {
     height: 100vh;
   }
@@ -58,7 +59,7 @@
     left: 50%;
     width: 100%;
     padding: 1rem;
-  
+
   }
   .hero-badge{
     top: 7%;
@@ -79,6 +80,143 @@
   }
   .caption p {
     font-size: 0.9rem;
+  }
+
+}
+
+
+/* TABLET */
+@media (max-width: 900px) {
+  .quick_word_from_headteacher {
+    flex-direction: column;
+  }
+
+  .content__right {
+    text-align: left;
+  }
+
+  .quick__quotation {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .content__left img {
+    max-width: 420px;
+  }
+
+  .quick__message p {
+    text-align: justify;
+  }
+}
+
+
+
+/*ABOUT US*/
+
+@media (max-width: 992px) {
+
+  .about__us__section {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .about_us_content_left {
+    align-items: center;
+    max-width: 700px;
+  }
+
+  .about__us__content__right {
+    margin-top: 30px;
+  }
+
+  .Year__Badge {
+    left: 10px;
+    bottom: -15px;
+  }
+
+}
+@media (max-width: 600px) {
+  .about__us__content__right {
+    order: -1;
+  }
+  .about__us__section {
+    padding: 1rem 1.2rem;
+  }
+
+  .about_us_content_left h1 {
+    font-size: 1.7rem;
+  }
+
+  .imageContainer {
+    height: 450px;
+  }
+
+  .Year__Badge {
+    padding: 10px 12px;
+    bottom: -12px;
+    left: 10px;
+    width: 80%;
+  }
+
+  .Year__Badge h1 {
+    font-size: 1.2rem;
+  }
+
+  .Year__Badge span {
+    font-size: 0.75rem;
+  }
+
+}
+
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+  .about__us__section {
+    gap: 1.5rem;
+  }
+
+  .imageContainer {
+    height: 300px;
+  }
+
+}
+
+
+
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  
+.facility{
+  padding: 2px;
+}
+  .schoolSections {
+    grid-template-columns: 1fr;
+  }
+
+  .our__facilities {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .our__facilities {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .o__level,
+  .A__level {
+    padding: 1rem;
   }
 
 }

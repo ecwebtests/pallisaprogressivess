@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="narbar.css">
   <link rel="stylesheet" href="responsiveness.css">
-  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="footer.css">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 
   <script src="main.js" defer></script>
@@ -155,14 +155,13 @@
  
 
 
-
   
   <!--MAIN ─────────────────────────────────────── -->
 <main>
 
    <div class="Homepage__hero__section">
 
-    <span class="hero-badge"><h1><span id="heroBage2">PALLISA</span> PROGRESSIVE SECONDARY SCHOOl</h1></span>
+    <span class="hero-badge"><h1><span id="heroBage2">PALLISA</span> PROGRESSIVE SECONDARY SCHOOL</h1></span>
 
     <div class="slider" id="slider">
       <div class="overlay"></div>
@@ -369,7 +368,7 @@
 
 <!--MISSION,MOTTO,AND OTHERS-->
 
-<section class="mission_motto_vision_section container">
+<section class="mission_motto_vision_section container" data-aos="fade-up">
       <div class="mission_header">
         <div class="quick__badge"><i class="fa-solid fa-wand-magic-sparkles"></i>Our Impact</div>
         <h1>Guiding Principles for Greater Excellence</h1>
@@ -405,77 +404,99 @@
 </section>
 
 
-<section class="academic_section container">
+<section class="academic_section container" data-aos="fade-up">
+        <div class="quick__badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Curriculum</div>
+        <h2 class="academic_title">Academic <span id="heroBage2">Overview</span></h2>
 
-   <div class="quick__badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Curriculum</div>
+          <!-- Description -->
+          <p class="academic_desc">
+            Pallisa Progressive Secondary School offer O’ Level and A’ Level programs under the new Uganda National Curriculum,
+            achieving strong results across sciences, humanities, and technical subjects. Its qualified teachers provide
+            personalized guidance to help every student reach their academic goals.
+          </p>
 
-  <h2 class="academic_title">Academic <span id="heroBage2">Overview</span></h2>
+          <!-- Cards -->
+          <div class="academic_grid">
 
-  <!-- Description -->
-  <p class="academic_desc">
-    Pallisa Progressive Secondary School offer O’ Level and A’ Level programs under the new Uganda National Curriculum,
-    achieving strong results across sciences, humanities, and technical subjects. Its qualified teachers provide
-    personalized guidance to help every student reach their academic goals.
-  </p>
+            <!-- Sciences -->
+            <div class="academic_card">
+                <div class="academic_icon">
+                  <i class="fa-solid fa-flask"></i>
+                </div>
+                <h3>Sciences</h3>
+                <ul>
+                  <li>Mathematics</li>
+                  <li>Biology</li>
+                  <li>Chemistry</li>
+                  <li>Physics</li>
+                  <li>Computer Studies</li>
+                  <li>Physical Education</li>
+                  <li>Agriculture</li>
+                
+                </ul>
+            </div>
 
-  <!-- Cards -->
-  <div class="academic_grid">
+            <!-- Arts -->
+            <div class="academic_card">
+                <div class="academic_icon">
+                  <i class="fa-solid fa-palette"></i>
+                </div>
+                <h3>Arts</h3>
+                <ul>
+                  <li>English Language</li>
+                  <li>Geography</li>
+                  <li>History & Political Education</li>
+                  <li>Divinity / Religious Studies</li>
+                  <li>Fine Art</li>
+                  <li>Literature in English</li>
+                  <li>Entrepreneurship</li>
+                  <li>Performing Arts</li>
+                  <li>Languages</li>
+                  <li>Economics</li>
+                </ul>
+            </div>
 
-    <!-- Sciences -->
-    <div class="academic_card">
-      <div class="academic_icon">
-        <i class="fa-solid fa-flask"></i>
-      </div>
-      <h3>Sciences</h3>
-      <ul>
-        <li>Mathematics</li>
-        <li>Biology</li>
-        <li>Chemistry</li>
-        <li>Physics</li>
-        <li>Computer Studies</li>
-        <li>Physical Education</li>
-        <li>Agriculture</li>
-       
-      </ul>
-    </div>
+            <!-- Subsidiaries -->
+            <div class="academic_card">
+                  <div class="academic_icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                  </div>
+                  <h3>Subsidiaries</h3>
+                <ul>
+                  <li>Subsidiary Mathematics</li>
+                  <li>General Paper</li>
+                  <li>Subsidiary ICT</li>
+                </ul>
+            </div>
 
-    <!-- Arts -->
-    <div class="academic_card">
-      <div class="academic_icon">
-        <i class="fa-solid fa-palette"></i>
-      </div>
-      <h3>Arts</h3>
-      <ul>
-        <li>English Language</li>
-        <li>Geography</li>
-        <li>History & Political Education</li>
-        <li>Divinity / Religious Studies</li>
-        <li>Fine Art</li>
-        <li>Literature in English</li>
-        <li>Entrepreneurship</li>
-        <li>Performing Arts</li>
-        <li>Languages</li>
-        <li>Economics</li>
-      </ul>
-    </div>
-
-    <!-- Subsidiaries -->
-    <div class="academic_card">
-      <div class="academic_icon">
-        <i class="fa-solid fa-chart-line"></i>
-      </div>
-      <h3>Subsidiaries</h3>
-      <ul>
-        <li>Subsidiary Mathematics</li>
-        <li>General Paper</li>
-        <li>Subsidiary ICT</li>
-      </ul>
-    </div>
-
-  </div>
+          </div>
 
 </section>
 
+
+<section class="call_to_action" data-aos="fade-up">
+     <div class="call_to_action_left_side">
+      <div class="quick__badge"><i class="fa-solid fa-wand-magic-sparkles"></i>Admission Inquiry</div>
+      <h2>Ready to join a community that nutures? <span id="changingText"></span></h2>
+      <p>
+        Take the first step toward an inspiring academic journey. 
+        Apply today or schedule a campus visit to experience Pallisa Progressive S.S firsthand.
+      </p>
+  </div>
+
+  <div class="call_to_action_right_side">
+    <div class="call_to_action_container">
+      <h1>Apply for Admission</h1>
+      <p>Fill out the official application form to begin your journey at Pallisa Progressive SS.</p>
+
+      <!--CALL TO ACTION BUTTON-->
+      <button><a href="academics.html">Apply Now<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a></button>
+      <span>______________Or______________</span>
+      <p><a href="academics.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Make an inquiry instead</a></p>
+    </div>
+  </div>
+
+</section>
 </main>
 </body>
 </html>
